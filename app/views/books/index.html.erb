@@ -17,7 +17,7 @@
       <tr>
         <td><%= book.isbn13 %></td>
         <td><%= book.title %></td>
-        <td><%= @book.author.first_name + " " + @book.author.surname %></td>
+        <td><%= book.author.name %></td>
         <td><%= book.series %></td>
         <td><%= book.main_characters %></td>
         <td><%= link_to 'Show', book %></td>
